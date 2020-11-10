@@ -40,7 +40,7 @@ const (
 	WriteReqDeadline    = 5 * time.Second
 	ReadResDeadline     = WriteReqDeadline
 	ReadResMinSpeed     = 50 << 10
-	ShufflePeersPrefix  = 16
+	ShufflePeersPrefix  = 120
 	WriteResDeadline    = 60 * time.Second
 )
 
